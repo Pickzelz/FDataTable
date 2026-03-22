@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bd212630c8c8d548a1fc4fc3adeb090, type: 3}
+  m_Name: FDataTableSettings
+  m_EditorClassIdentifier: FDataTable.Editor::FDataTable.Editor.FDataTableSettings
+  globalDefaultFolder: Assets/Game/Resources/data
+  globalDefaultPrefix: New
+  _typeConfigs:
+  - typeName: Game.Script.WeaponSystem.WeaponData, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    targetFolder: Assets/Data
+    filePrefix: WeaponData
+    includedFields: []
+    excludedFields: []
+  - typeName: Game.Script.HelperSystem.HelperData, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    targetFolder: Assets/Data
+    filePrefix: HelperData
+    includedFields: []
+    excludedFields: []
+  - typeName: Game.Script.Data.ItemData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    targetFolder: Assets/Data
+    filePrefix: ItemData
+    includedFields: []
+    excludedFields: []
+  - typeName: Game.Script.Data.PlantData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    targetFolder: Assets/Game/Resources/data
+    filePrefix: PlantData
+    includedFields: []
+    excludedFields: []
+  - typeName: Game.Script.Data.NutritionData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    targetFolder: Assets/Data
+    filePrefix: NutritionData
+    includedFields: []
+    excludedFields: []
+  - typeName: ReadmeEditor, Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    targetFolder: Assets/Data
+    filePrefix: ReadmeEditor
+    includedFields: []
+    excludedFields: []
+  - typeName: Game.Script.BuildSystem.BuildingData, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    targetFolder: Assets/Game/Resources/data/Building
+    filePrefix: BuildingData
+    includedFields:
+    - buildingName
+    - ingredients
+    excludedFields:
+    - buildingPrefab
+    - buildingPlaceholderPrefab
+    - buildingSize
+    - buildingPlaceTag
+  - typeName: Game.Script.BuildSystem.BuildingCollection, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    targetFolder: Assets/Data
+    filePrefix: BuildingCollection
+    includedFields: []
+    excludedFields: []

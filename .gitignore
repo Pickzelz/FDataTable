@@ -1,0 +1,17 @@
+# Unity generated
+*.meta
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS / Rider
+.vs/
+.idea/
+*.user
+*.suo
+
+# Build output
+obj/
+Temp/
+Library/

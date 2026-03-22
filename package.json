@@ -1,0 +1,20 @@
+{
+  "name": "com.pickzelz.fdatatable",
+  "version": "1.0.0",
+  "displayName": "FDataTable",
+  "description": "A Unity Editor spreadsheet window for managing ScriptableObject assets in a table view — edit, add, reorder, and filter rows without leaving the Editor.",
+  "unity": "2021.3",
+  "author": {
+    "name": "Pickzelz",
+    "url": "https://github.com/Pickzelz"
+  },
+  "keywords": [
+    "editor",
+    "scriptableobject",
+    "data",
+    "table",
+    "spreadsheet",
+    "database"
+  ],
+  "dependencies": {}
+}
