@@ -69,3 +69,24 @@ MonoBehaviour:
     filePrefix: BuildingCollection
     includedFields: []
     excludedFields: []
+  - typeName: Game.Script.SunlightSystem.SunlightNutritionConfig, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    targetFolder: Assets/Data
+    filePrefix: SunlightNutritionConfig
+    includedFields: []
+    excludedFields: []
+  - typeName: BodyGame.Data.OrganSO, Game, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    targetFolder: Assets/Data
+    filePrefix: OrganSO
+    includedFields: []
+    excludedFields: []
+  - typeName: BodyGame.Data.ItemSO, Game, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    targetFolder: Assets/Data
+    filePrefix: ItemSO
+    includedFields: []
+    excludedFields: []
+  - typeName: BodyGame.Data.LevelSO, Game, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    targetFolder: Assets/Data
+    filePrefix: LevelSO
+    includedFields: []
+    excludedFields: []
